@@ -1,0 +1,34 @@
+{
+  "name": "zero-mars-boilerplate",
+  "version": "0.0.1",
+  "keywords": [
+    "zero module",
+    "mars"
+  ],
+  "description": "Mars boilerplate.",
+  "zero": {
+    "dependencies": {
+      "bus": "^0.2.0",
+      "request": "^0.2.0",
+      "roof": "^0.0.1",
+      "taurus": "^0.0.1"
+    }
+  },
+  "author": "sskyy",
+  "dependencies": {
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sskyy/zero-mars-boilerplate.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sskyy/zero-mars-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sskyy/zero-mars-boilerplate#readme"
+}
