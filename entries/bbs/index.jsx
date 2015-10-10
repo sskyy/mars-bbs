@@ -1,9 +1,7 @@
 'use strict'
-
-var React = require("react")
 var Roof = require('roof-zeroql')
-var Register = require('./components/Register.jsx')
-var Login = require('./components/Login.jsx')
+var Posts = require('./components/Posts.jsx')
+var Input = require('./components/Input.jsx')
 
 require('./index.less')
 
@@ -11,14 +9,18 @@ module.exports = Roof.createRootContainer({
   backend : '/taurus/mars-bbs/query',
   types : [
     require('../../common/types/user.js'),
+    require('../../common/types/post.js')
   ],
   events : [
     require('./events/client.js')
   ],
   render: function(){
     return <div className='container'>
-      <Register />
-      <Login />
+      <div className='header'>
+        Mars BBS
+      </div>
+      <Input />
+      <Posts />
     </div>
   }
 })

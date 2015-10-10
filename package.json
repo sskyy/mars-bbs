@@ -1,11 +1,11 @@
 {
-  "name": "zero-mars-boilerplate",
+  "name": "zero-mars-bbs",
   "version": "0.0.1",
   "keywords": [
     "zero module",
     "mars"
   ],
-  "description": "Mars boilerplate.",
+  "description": "Mars sample bbs.",
   "zero": {
     "dependencies": {
       "bus": "^0.2.0",
