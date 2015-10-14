@@ -20,8 +20,7 @@ module.exports = function (galaxies) {
       this.req.session.user = {name: identity.name,id:user.get('id')}
       console.log('set session', this.req.session)
       this.data.set('user.login.result', {name: identity.name})
-    },
-
+    }
   }
 };
 

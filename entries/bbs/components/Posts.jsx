@@ -15,7 +15,6 @@ module.exports = Roof.createContainer({
     this.props.posts.query.setAttr('_offset', (page-1) * 5)
   },
   render : function(){
-    console.warn('rerendering posts')
     return <div>
         {this.props.posts.map(function(post){
           return <Post key={post.get('id')} post={post}></Post>

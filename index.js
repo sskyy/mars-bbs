@@ -37,6 +37,6 @@ module.exports = {
     host: 'localhost',
     user: 'root',
     socketPath: '/tmp/mysql.sock',
-    database: 'taurus'
+    database: 'bbs'
   }
 }

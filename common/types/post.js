@@ -2,7 +2,7 @@ module.exports ={
   type : 'Post',
   primary : 'id',
   fields : {
-    content : 'STRING',
+    content : 'varchar',
   },
   relations : [{
     name : 'created',

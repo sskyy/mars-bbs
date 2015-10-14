@@ -8,10 +8,10 @@
   "description": "Mars sample bbs.",
   "zero": {
     "dependencies": {
-      "bus": "^0.2.0",
-      "request": "^0.2.0",
-      "roof": "^0.0.1",
-      "taurus": "^0.0.1"
+      "bus": "~0.2.0",
+      "request": "~0.2.0",
+      "roof": "~0.0.1",
+      "taurus": "~0.0.1"
     }
   },
   "author": "sskyy",
